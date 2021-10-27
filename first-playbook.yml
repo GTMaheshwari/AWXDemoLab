@@ -7,8 +7,3 @@
    
   - name: Start Apache on Centos Server
     service: name=httpd state=started
-
-  - name: Copy index file
-    template:
-      src: index.html
-      dest: /var/www/html/index.html
